@@ -1,0 +1,16 @@
+package: ""
+import:
+- package: github.com/gin-gonic/gin
+  version: ^1.3.0
+- package: google.golang.org/api
+  subpackages:
+  - drive/v3
+- package: golang.org/x/oauth2
+  subpackages:
+  - '...'
+- package: cloud.google.com/go
+  version: ^0.26.0
+  subpackages:
+  - compute/metadata
+- package: github.com/gin-contrib/cors
+  version: ^1.2.0

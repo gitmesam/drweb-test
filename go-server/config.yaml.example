@@ -1,0 +1,6 @@
+service:
+  port: 8081
+
+google:
+  credentials-file: "credentials.json"
+  token-file: "token.json"
